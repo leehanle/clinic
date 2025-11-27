@@ -119,7 +119,7 @@ the*/
 bv*/
   .bv {
     width: 100%;
-    margin: 100px 0px;
+    margin: 200px 0px;
     /* border: 1px solid red; */
     position: relative;
     height: 100vh;
@@ -128,7 +128,7 @@ bv*/
     /* border: 1px solid red; */
     width: 50%;
     margin: 0px auto;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -146,7 +146,7 @@ bv*/
   .bv .lipwo {
     position: absolute;
     left: 10%;
-    top: 30%;
+    top: 40%;
     transition: 1s;
     /* border: 1px solid red; */
     width: 50%;
@@ -183,7 +183,7 @@ our*/
   }
   .our p {
     text-align: center;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
   }
   .our .cos {
     display: flex;
@@ -194,12 +194,13 @@ our*/
   }
   .our .cos li {
     cursor: pointer;
+    font-size: 15px;
   }
   .our .dv {
     /* border: 1px solid red; */
     width: 80%;
     margin: 50px auto;
-    height: 800px;
+    height: 500px;
     position: relative;
   }
   .our .metic {
@@ -243,10 +244,10 @@ our*/
   }
   .our .dv div h3 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     transform: translateY(-40%);
     right: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .our .dv div ul {
     position: absolute;
@@ -257,7 +258,7 @@ our*/
     list-style: inside;
   }
   .our .dv div ul li {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin: 10px 0px;
   }
 
@@ -270,6 +271,7 @@ prom*/
     width: 100%;
     height: 60vh;
     color: #564c4e;
+    margin-top: 200px;
   }
   .prom h2 {
     font-size: 2rem;
@@ -300,18 +302,19 @@ prom*/
   .prom .deep ul li p {
     margin-top: 30px;
     /* font-size: 1.3rem; */
+    font-size: 15px;
   }
   .prom .deep .view {
     background-color: #4e393d;
     width: 15%;
-    height: 80px;
+    height: 60px;
     border-radius: 50%;
     color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin: 0px auto;
   }
   .prom .deep .view:hover {
@@ -359,6 +362,7 @@ prom*/
     align-items: center;
     position: fixed;
     z-index: 10;
+    font-size: 15px;
   }
   header div {
     display: flex;
@@ -441,7 +445,7 @@ bv*/
     /* border: 1px solid red; */
     width: 50%;
     margin: 0px auto;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -459,14 +463,31 @@ bv*/
   .bv .lipwo {
     position: absolute;
     left: 10%;
-    top: 25%;
+    top: 35%;
     transition: 1s;
+    width: 35%;
+    height: 350px;
+    /* border: 1px solid red; */
+  }
+  .bv .lipwo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
   }
   .bv .eyewo {
     position: absolute;
     right: 10%;
     top: 60%;
     transition: 1s;
+    width: 50%;
+    height: 350px;
+  }
+  .bv .eyewo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
   }
   /*container3
 our*/
@@ -498,7 +519,7 @@ our*/
     /* border: 1px solid red; */
     width: 80%;
     margin: 50px auto;
-    height: 800px;
+    height: 600px;
     position: relative;
   }
   .our .metic {
@@ -542,21 +563,21 @@ our*/
   }
   .our .dv div h3 {
     position: absolute;
-    top: 40%;
+    top: 30%;
     transform: translateY(-40%);
     right: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .our .dv div ul {
     position: absolute;
     top: 60%;
     transform: translateY(-60%);
     right: 10%;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     list-style: inside;
   }
   .our .dv div ul li {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin: 10px 0px;
   }
 
@@ -568,6 +589,7 @@ prom*/
   .prom {
     width: 100%;
     height: 80vh;
+    margin-top: 200px;
   }
   .prom h2 {
     font-size: 3rem;
@@ -599,7 +621,7 @@ prom*/
   .prom .deep .view {
     background-color: #4e393d;
     width: 15%;
-    height: 150px;
+    height: 130px;
     border-radius: 50%;
     color: #fff;
     display: flex;
@@ -653,6 +675,7 @@ prom*/
     align-items: center;
     position: fixed;
     z-index: 10;
+    font-size: 15px;
   }
   header div {
     display: flex;
@@ -678,11 +701,11 @@ prom*/
     transform: translateY(-50%);
   }
   #visual .high h2 {
-    font-size: 5rem;
+    font-size: 4rem;
     margin-bottom: 50px;
   }
   #visual .high p {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
   /*container1
 the*/
@@ -713,9 +736,9 @@ the*/
     object-fit: cover;
   }
   .the h2 {
-    font-size: 6rem;
+    font-size: 4rem;
     position: absolute;
-    bottom: -15%;
+    bottom: -10%;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -738,7 +761,7 @@ bv*/
     /* border: 1px solid red; */
     width: 50%;
     margin: 0px auto;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #fff;
     text-align: center;
     line-height: 80px;
@@ -773,20 +796,20 @@ our*/
     color: #fff;
   }
   .our h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 50px;
   }
   .our p {
     text-align: center;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
   .our .cos {
     display: flex;
     gap: 50px;
     justify-content: center;
     margin-top: 50px;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
   }
   .our .cos li {
     cursor: pointer;
@@ -842,18 +865,18 @@ our*/
     top: 40%;
     transform: translateY(-40%);
     right: 10%;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .our .dv div ul {
     position: absolute;
     top: 60%;
     transform: translateY(-60%);
     right: 10%;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     list-style: inside;
   }
   .our .dv div ul li {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin: 10px 0px;
   }
 
@@ -865,6 +888,7 @@ prom*/
   .prom {
     width: 100%;
     height: 100vh;
+    margin-top: 300px;
   }
   .prom h2 {
     font-size: 3rem;
@@ -882,8 +906,8 @@ prom*/
     margin: 50px;
   }
   .prom .deep ul li {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   }
   .prom .deep ul li img {
     width: 100%;
@@ -891,7 +915,7 @@ prom*/
   }
   .prom .deep ul li p {
     margin-top: 30px;
-    font-size: 1.3rem;
+    /* font-size: 1.3rem; */
   }
   .prom .deep .view {
     background-color: #4e393d;
