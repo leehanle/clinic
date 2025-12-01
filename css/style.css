@@ -137,11 +137,15 @@ body {
   #visual .high h2 {
     font-size: 2rem;
     margin-bottom: 30px;
+    transform: translateY(100px);
+    opacity: 0;
   }
   #visual .high p {
     font-size: 10px;
     line-height: 20px;
     letter-spacing: 1px;
+    transform: translateY(100px);
+    opacity: 0;
   }
   /*container1
 the*/
@@ -154,7 +158,20 @@ the*/
     color: #fff;
     text-align: center;
     margin: 50px 0px;
+    animation: clinic 3s ease-in-out infinite;
   }
+  @keyframes clinic {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-5%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
   .the .jf {
     width: 100%;
     position: relative;
@@ -366,6 +383,7 @@ prom*/
     width: 40%;
     height: 250px;
     /* border: 1px solid red; */
+    transition: 1s;
   }
   .prom .deep ul li img {
     width: 100%;
@@ -462,6 +480,12 @@ prom*/
   #visual .high h2 {
     font-size: 3rem;
     margin-bottom: 30px;
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  #visual .high p {
+    transform: translateY(100px);
+    opacity: 0;
   }
   /*container1
 the*/
@@ -474,7 +498,20 @@ the*/
     color: #fff;
     text-align: center;
     margin: 50px 0px;
+    animation: clinic 3s ease-in-out infinite;
   }
+  @keyframes clinic {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-5%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
+  }
+
   .the .jf {
     width: 100%;
     position: relative;
@@ -681,6 +718,7 @@ prom*/
   .prom .deep ul li {
     width: 30%;
     height: 300px;
+    transition: 1s;
   }
   .prom .deep ul li img {
     width: 100%;
@@ -775,9 +813,13 @@ prom*/
   #visual .high h2 {
     font-size: 4rem;
     margin-bottom: 50px;
+    transform: translateY(100px);
+    opacity: 0;
   }
   #visual .high p {
     /* font-size: 1.5rem; */
+    transform: translateY(100px);
+    opacity: 0;
   }
   /*container1
 the*/
@@ -790,6 +832,18 @@ the*/
     color: #fff;
     text-align: center;
     margin: 50px 0px;
+    animation: clinic 3s ease-in-out infinite;
+  }
+  @keyframes clinic {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+      transform: translateY(-5%);
+    }
+    100% {
+      transform: translateY(0%);
+    }
   }
   .the .jf {
     width: 100%;
@@ -980,6 +1034,8 @@ prom*/
   .prom .deep ul li {
     width: 400px;
     height: 400px;
+    transform: translateY(200px);
+    transition: 1s;
   }
   .prom .deep ul li img {
     width: 100%;
