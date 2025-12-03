@@ -13,6 +13,8 @@ $(function () {
   });
   $(".our .cos li").on("click", function () {
     let a = $(this).index();
+    $(".our .cos li").removeClass("sb");
+    $(this).addClass("sb");
     $(".our .dv div").removeClass("ab");
     $(".our .dv div").eq(a).addClass("ab");
   });

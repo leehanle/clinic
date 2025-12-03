@@ -284,6 +284,12 @@ our*/
   .our .cos li {
     cursor: pointer;
     font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .our .cos li.sb {
+    background-color: rgba(0, 0, 0, 1);
   }
   .our .dv {
     /* border: 1px solid red; */
@@ -623,6 +629,12 @@ our*/
   }
   .our .cos li {
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .our .cos li.sb {
+    background-color: rgba(0, 0, 0, 1);
   }
   .our .dv {
     /* border: 1px solid red; */
@@ -939,6 +951,12 @@ our*/
   }
   .our .cos li {
     cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .our .cos li.sb {
+    background-color: rgba(0, 0, 0, 1);
   }
   .our .dv {
     /* border: 1px solid red; */
