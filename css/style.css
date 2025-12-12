@@ -179,7 +179,7 @@ the*/
   .the .neck {
     /* border: 1px solid red; */
     width: 70%;
-    height: 700px;
+    height: 500px;
     margin: 0px auto;
   }
   .the .neck img {
@@ -191,7 +191,7 @@ the*/
   .the h2 {
     font-size: 1.5rem;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -199,10 +199,10 @@ the*/
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    bottom: -30%;
+    bottom: -40%;
     font-size: 10px;
-    letter-spacing: 1px;
-    line-height: 20px;
+    /* letter-spacing: 1px; */
+    /* line-height: 20px; */
   }
   /*container2
 bv*/
@@ -244,6 +244,7 @@ bv*/
   .bv .lipwo img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
   .bv .eyewo {
     position: absolute;
@@ -257,6 +258,7 @@ bv*/
   .bv .eyewo img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
   /*container3
 our*/
